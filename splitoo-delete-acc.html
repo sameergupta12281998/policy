@@ -1,0 +1,195 @@
+@ -0,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Splitoo – Delete Account</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.7;
+    }
+    header {
+      background: #1A237E;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 6px; opacity: .8; font-size: .95rem; }
+    main {
+      max-width: 680px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #1A237E;
+      margin-bottom: 14px;
+    }
+    p  { margin-bottom: 12px; color: #495057; }
+    ol { margin: 8px 0 12px 20px; }
+    li { margin-bottom: 8px; color: #495057; }
+    .warning {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin-bottom: 20px;
+      font-size: .92rem;
+      color: #856404;
+    }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: .92rem;
+    }
+    .data-table th {
+      background: #e0e4f7;
+      color: #1A237E;
+      text-align: left;
+      padding: 10px 12px;
+      font-weight: 600;
+    }
+    .data-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #dee2e6;
+      color: #495057;
+    }
+    .badge-deleted  { color: #d32f2f; font-weight: 600; }
+    .badge-retained { color: #388e3c; font-weight: 600; }
+    .email-btn {
+      display: inline-block;
+      background: #1A237E;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: .95rem;
+      margin-top: 8px;
+    }
+    .email-btn:hover { background: #283593; }
+    footer {
+      text-align: center;
+      font-size: .82rem;
+      color: #868e96;
+      padding: 24px;
+      border-top: 1px solid #dee2e6;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Splitoo</h1>
+  <p>Account &amp; Data Deletion</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>How to Delete Your Account</h2>
+    <p>
+      To permanently delete your Splitoo account and all associated data, follow these steps:
+    </p>
+    <ol>
+      <li>Open the <strong>Splitoo</strong> app on your device.</li>
+      <li>Tap the <strong>Profile</strong> icon at the bottom of the screen.</li>
+      <li>Scroll down and tap <strong>Delete Account</strong>.</li>
+      <li>Confirm the deletion when prompted.</li>
+    </ol>
+    <p>
+      Your account will be permanently deleted within <strong>30 days</strong> of your request.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Can't Access the App?</h2>
+    <p>
+      If you are unable to access the app, you can submit a deletion request by emailing us directly:
+    </p>
+    <p>
+      <strong>Subject:</strong> Account Deletion Request<br />
+      <strong>Include:</strong> The email address associated with your Splitoo account.
+    </p>
+    <a class="email-btn" href="mailto:rishabh19mishra99@gmail.com?subject=Account%20Deletion%20Request">
+      Email Us to Delete Account
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>What Data Is Deleted or Retained</h2>
+    <div class="warning">
+      Account deletion is permanent and cannot be undone. Please review what is deleted and what may be retained below.
+    </div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Data Type</th>
+          <th>Action</th>
+          <th>Retention Period</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Profile (name, avatar, bio)</td>
+          <td class="badge-deleted">Deleted</td>
+          <td>Within 30 days</td>
+        </tr>
+        <tr>
+          <td>Email address</td>
+          <td class="badge-deleted">Deleted</td>
+          <td>Within 30 days</td>
+        </tr>
+        <tr>
+          <td>Groups you created</td>
+          <td class="badge-deleted">Deleted</td>
+          <td>Within 30 days</td>
+        </tr>
+        <tr>
+          <td>Expenses you added</td>
+          <td class="badge-deleted">Deleted</td>
+          <td>Within 30 days</td>
+        </tr>
+        <tr>
+          <td>Settlement records</td>
+          <td class="badge-deleted">Deleted</td>
+          <td>Within 30 days</td>
+        </tr>
+        <tr>
+          <td>Authentication tokens</td>
+          <td class="badge-deleted">Deleted</td>
+          <td>Immediately</td>
+        </tr>
+        <tr>
+          <td>Anonymous crash / diagnostic logs</td>
+          <td class="badge-retained">Retained</td>
+          <td>Up to 90 days (no personal data)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2025 Splitoo. All rights reserved. &nbsp;|&nbsp;
+  <a href="privacy-policy.html" style="color:#1A237E;">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
